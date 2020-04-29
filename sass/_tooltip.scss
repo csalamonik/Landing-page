@@ -1,0 +1,14 @@
+#tooltip {
+    position: absolute;
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: 0;
+    top: 50%;
+    right: 0;
+    transform: translate(-5px, -50%);
+    border-radius: 50%;
+    border: none;
+    justify-content: center;
+    cursor: default;
+
+}

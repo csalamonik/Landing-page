@@ -1,0 +1,39 @@
+.product {
+
+    position: relative;
+
+
+
+    &--mark {
+        position: absolute;
+        width: 30%;
+        height: width;
+        bottom: 0;
+        right: 0;
+        transform: translate(-50%, 0);
+    }
+
+
+
+    @media (min-width: 992px) {
+        &--number {
+            position: absolute;
+            width: 20%;
+            height: 40%;
+            top: 50%;
+            right: 50%;
+            transform: translate(250%, -50%);
+
+
+
+        }
+
+        &--mark {
+            width: 17%;
+            left: 0;
+
+            transform: translate(50%, 0);
+        }
+
+    }
+}

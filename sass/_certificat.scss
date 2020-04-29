@@ -1,0 +1,29 @@
+.certificat {
+    font-family: 'Times New Roman', Times, serif;
+    // border-bottom: 45px solid transparent;
+    padding: 15px;
+    // border-image: url(../public/assets/border.jpg) 20 20 20 20 repeat;
+    border-image-source: url(../public/assets/frame.jpg);
+    border-image-slice: 30 30 30 30 fill;
+    border-image-width: 30px 30px 30px 30px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: round round;
+
+
+
+
+    /*** Your CSS code ***/
+
+    // border-style: solid;
+    // border-width: 45px 0px 0px 45px;
+    // border-image: url(../public/assets/border.jpg) 45 0 0 0 repeat repeat;
+
+
+
+
+
+
+
+
+
+}
